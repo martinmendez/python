@@ -2,6 +2,7 @@
 file = open("newfile.txt", "w")
 file.write("hello world in the new file\n")
 file.write("and another line\n")
+file.write("and another line2\n")
 file.close()
 
 #Open and read the created file, luego stdout
